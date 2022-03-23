@@ -2,33 +2,43 @@
 
 return [
 
-    'api_key'               => 'API Key',
+    'api_key'               => 'API atslēga',
     'my_apps'               => 'Manas programmas',
-    'pre_sale'              => 'Pre-Sale',
+    'pre_sale'              => 'Iepriekšpārdošana',
     'top_paid'              => 'Top maksas',
     'new'                   => 'Jaunas',
     'top_free'              => 'Top bezmaksas',
     'free'                  => 'BEZMAKSAS',
-    'search'                => 'Meklēt',
+    'monthly'               => 'Ikmēneša',
+    'yearly'                => 'Ikgadējs',
+    'yearly_pricing'        => 'Gada cenas noteikšana',
+    'monthly_price'         => 'no :price',
+    'per_month'             => 'mēnesī',
+    'billed_yearly'         => 'Izrakstīts par gadu',
+    'billed_monthly'        => 'Izrakstīts par mēnesi',
+    'save_year'             => 'Jūs ietaupāt <strong>:cena</strong> par gadu!',
+    'if_paid_year'          => 'Vai <strong>:cena/mēn</strong> apmaksai par gadu',
+    'information_monthly'   => 'Šī opcija ir derīga tikai pakalpojumam <strong>mākoņpakalpojumam</strong>',
     'install'               => 'Instalēt',
     'buy_now'               => 'Pirkt tagad',
-    'get_api_key'           => '<a href=":url" target="_blank">Click here</a> to get your API key.',
+    'get_api_key'           => '<a href=":url" target="_blank">Noklikšķiniet šeit</a> lai iegūtu API atslēgu.',
     'no_apps'               => 'Šajā kategorijā programmu vēl nav.',
-    'become_developer'      => 'Are you a developer? <a href=":url" target="_blank">Here</a> you can learn how to create an app and start selling today!',
-    'recommended_apps'      => 'Recommended Apps',
+    'become_developer'      => 'Vai jūs esat izstrādātājs? <a href=":url" target="_blank">Šeit</a> varat uzzināt, kā izveidot lietotni un sākt pārdot jau šodien!',
+    'recommended_apps'      => 'Ieteicamās lietojumprogrammas',
+    'can_not_install'       => 'Mēneša abonementi ir pieejami tikai mākoņpakalpojumā. <a href="https://akaunting.com/upgrade-to-yearly" target="_blank">Uzziniet vairāk.</a>',
 
     'about'                 => 'Par',
 
     'added'                 => 'Pievienots',
     'updated'               => 'Atjaunināts',
     'compatibility'         => 'Savietojamība',
-    'documentation'         => 'Documentation',
-    'view'                  => 'View',
-    'back'                  => 'Back',
+    'documentation'         => 'Dokumentācija',
+    'view'                  => 'Skatīt',
+    'back'                  => 'Atpakaļ',
 
     'installed'             => ':module instalēta',
     'uninstalled'           => ':module atinstalēta',
-    //'updated'               => ':module updated',
+    'updated_2'             => ':module ir atjaunināts',
     'enabled'               => ':module iespējots',
     'disabled'              => ':module atspējots',
 
@@ -36,30 +46,31 @@ return [
         'installation'      => 'Instalācija',
         'faq'               => 'BUJ',
         'changelog'         => 'Izmaiņas',
-        'reviews'           => 'Reviews',
+        'reviews'           => 'Recenzijas',
     ],
 
     'installation' => [
         'header'            => 'Programmas instalācija',
-        'download'          => 'Downloading :module',
-        'unzip'             => 'Extracting :module files',
-        'file_copy'         => 'Copying :module files',
-        'finish'            => 'Finalizing :module installation',
-        'redirect'          => ':module installed, redirecting to updates page',
-        'install'           => 'Installing :module',
+        'download'          => 'Lejupielādēju :module.',
+        'unzip'             => 'Atarhivēju :module failus',
+        'file_copy'         => 'Kopē :module failus',
+        'finish'            => 'Pabeigta :module uzstādīšana',
+        'redirect'          => ':module instalēta, novirzīšana uz atjauninājumu lapu',
+        'install'           => 'Instalēju :module',
     ],
 
     'errors' => [
-        'download'          => 'Not able to download :module',
-        'zip'               => 'Not able to create :module zip file',
-        'unzip'             => 'Not able to unzip :module',
-        'file_copy'         => 'Not able to copy :module files',
-        'finish'            => 'Not able to finalize :module installation',
+        'purchase'          => 'Jums vajadzētu iegādāties/atjaunot :module!',
+        'download'          => 'Nevar lejupielādēt :module',
+        'zip'               => 'Nevar izveidot :module zip failu',
+        'unzip'             => 'Nevar unzip :module',
+        'file_copy'         => 'Nevar nokopēt :module failus',
+        'finish'            => 'Nevar pabeigt :module uzstādīšanu',
     ],
 
     'badge' => [
         'installed'         => 'Instalēts',
-        'pre_sale'          => 'Pre-Sale',
+        'pre_sale'          => 'Iepriekšpārdošana',
     ],
 
     'button' => [
@@ -75,10 +86,10 @@ return [
 
     'reviews' => [
         'button' => [
-            'add'           => 'Add a Review'
+            'add'           => 'Pievienot atsauksmi'
         ],
 
-        'na'                => 'There are no reviews.'
+        'na'                => 'Nav nevienas atsauksmes.'
     ],
 
 ];

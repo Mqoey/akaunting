@@ -2,6 +2,7 @@
 
 return [
 
+    'years'                 => 'Gads|Gadi',
     'this_year'             => 'Šogad',
     'previous_year'         => 'Iepriekšējais gads',
     'this_quarter'          => 'Šis ceturksnis',
@@ -12,7 +13,7 @@ return [
     'net_profit'            => 'Neto peļņa',
     'total_expenses'        => 'Kopējie izdevumi',
     'net'                   => 'NET',
-    'income_expense'        => 'Income & Expense',
+    'income_expense'        => 'Ienākumi & Izdevumi',
 
     'summary' => [
         'income'            => 'Ieņēmumu kopsavilkums',
@@ -22,9 +23,9 @@ return [
     ],
 
     'charts' => [
-        'line'              => 'Line',
-        'bar'               => 'Bar',
-        'pie'               => 'Pie',
+        'line'              => 'Līnija',
+        'bar'               => 'Stienis',
+        'pie'               => 'Pīrāgs',
     ],
 
 ];

@@ -2,10 +2,8 @@
 
 return [
 
-    'title' => 'Under Maintenance',
+    'title' => 'Atrodas Apkopē',
 
-    'message' => 'Sorry, we\'re down for maintenance. Please, try again later!',
-
-    'last-updated' => 'This message was last updated :timestamp.',
+    'message' => 'Atvainojiet, mums nepieciešama apkope. Lūdzu, vēlāk mēģiniet vēlreiz!',
 
 ];
